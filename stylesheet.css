@@ -1,0 +1,110 @@
+/***********************************************************************
+The container class holds the navigation menu, movie selection, and chat
+************************************************************************/
+.container {
+	margin: 0px;
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid black;
+
+}
+
+/***********************************************************************
+The navigation menu holds the search option, main links to other pages,
+"Your Movie Choice" pages, and "Collections" links
+************************************************************************/
+.nav {
+	display: flex;
+	flex-wrap: nowrap;
+	border: 2px solid yellow;
+	width: 15%;
+	background: #1a1010;
+	color: #f2eeee;
+
+}
+
+.sideBarText {
+	list-style-type: none;
+}
+
+/***********************************************************************
+This is the center section of the page containing the top title bar
+and the movies available for selection
+************************************************************************/
+.main {
+	border: 2px solid blue;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 70%;
+}
+
+.main__top {
+	border: 1px dashed green;
+}
+
+.movies {
+	border: 1px dashed orange;
+	width: 160px;
+	height: 250px;
+}
+
+.movies__images {
+	width: 160px;
+	height: 210px;
+}
+
+.movies__title {
+	font-size: 10px;
+	margin: 0px;
+}
+
+.movies__genre {
+	font-size: 8px;
+	color: gray;
+	margin: 0px;
+}
+
+.movies__runTime {
+	font-size: 8px;
+	color: gray;
+	margin: 0px;
+}
+/***********************************************************************
+This is the chat section of the page where friends can be viewed and 
+chatted with
+************************************************************************/
+.chat {
+	border: 2px solid red;
+	width: 15%;
+}
+
+.chat__movieTitle {
+	color: gray;
+}
+
+.chat__online {
+	border: 1px dashed purple;
+}
+
+.chat__offline {
+	border: 1px dashed aqua;
+}
+
+/***********************************************************************
+The titles in the side bars (navigation and chat)
+************************************************************************/
+.sideBarTitles {
+	
+	color: #6f6b6b;
+}
+
+.sideBarImages {
+	width: 10px;
+	height: 10px;
+}
+
+.test {
+	display: flex;
+	justify-content: space-between;
+}
