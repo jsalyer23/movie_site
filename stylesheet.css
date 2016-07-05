@@ -16,6 +16,7 @@ The navigation menu holds the search option, main links to other pages,
 .nav {
 	display: flex;
 	flex-wrap: nowrap;
+	flex-direction: column;
 	border: 2px solid yellow;
 	width: 15%;
 	background: #1a1010;
@@ -25,6 +26,7 @@ The navigation menu holds the search option, main links to other pages,
 
 .sideBarText {
 	list-style-type: none;
+	font-size: 20px;
 }
 
 /***********************************************************************
@@ -100,11 +102,23 @@ The titles in the side bars (navigation and chat)
 }
 
 .sideBarImages {
-	width: 10px;
-	height: 10px;
+	width: 15px;
+	height: 15px;
 }
 
-.test {
+.sideBarItem {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.search {
+	display: flex;
+	height: 100px;
+	font-size: 12px;
+	background: #e75b5b;
+	justify-content: center;
+	align-items: center;
 }
