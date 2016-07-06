@@ -59,18 +59,19 @@ and the movies available for selection
 }
 
 .movies__title {
-	font-size: 12px;
+	font-size: 10px;
 	margin: 0px;
+	font-weight: bold;
 }
 
 .movies__genre {
-	font-size: 10px;
+	font-size: 8px;
 	color: gray;
 	margin: 0px;
 }
 
 .movies__runTime {
-	font-size: 10px;
+	font-size: 8px;
 	color: gray;
 	margin: 0px;
 }
@@ -164,6 +165,7 @@ The titles in the side bars (navigation and chat)
 .sideBarImages {
 	width: 15px;
 	height: 15px;
+	padding-right: 10px;
 }
 
 .sideBarItem {
@@ -202,7 +204,7 @@ The titles in the side bars (navigation and chat)
 }
 
 .pageTitle__text {
-	padding-left: 15px;
+	padding-left: 20px;
 	font-size: 30px;
 }
 
@@ -227,9 +229,11 @@ The titles in the side bars (navigation and chat)
 }
 
 .refreshIcons {
-
+	padding-right: 20px;
 }
 
-.refreshIcons__images {
-	
+.refreshIcons__image {
+	height: 25px;
+	width: 70px;
+	padding-left: 10px;
 }
