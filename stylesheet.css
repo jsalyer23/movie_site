@@ -6,7 +6,7 @@ The container class holds the navigation menu, movie selection, and chat
 	display: flex;
 	justify-content: space-between;
 	border: 2px solid black;
-	font-family: sans-serif;
+	font-family: "Lato", sans-serif;
 
 }
 
@@ -19,7 +19,7 @@ The navigation menu holds the search option, main links to other pages,
 	flex-wrap: nowrap;
 	flex-direction: column;
 	width: 15%;
-	background: #000000;
+	background: #12171b;
 	color: #f2eeee;
 
 
@@ -59,18 +59,18 @@ and the movies available for selection
 }
 
 .movies__title {
-	font-size: 10px;
+	font-size: 12px;
 	margin: 0px;
 }
 
 .movies__genre {
-	font-size: 8px;
+	font-size: 10px;
 	color: gray;
 	margin: 0px;
 }
 
 .movies__runTime {
-	font-size: 8px;
+	font-size: 10px;
 	color: gray;
 	margin: 0px;
 }
@@ -83,31 +83,39 @@ chatted with
 }
 
 .chat {
-	background: #e9edee;
+	background: #edeeef;
 }
 
 .chatItem {
 	display: flex;
 	flex-direction: column;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 17px;
+	padding-bottom: 17px;
 }
 
 .chatItem__name {
-	font-size: 15px;
+	font-size: 12px;
 }
 
 .chatItem__title {
-	font-size: 15px;
+	font-size: 10px;
 	color: grey;
 }
 
 .chatItem__image {
-	height: 20px;
-	width: 20px;
-
+	height: 30px;
+	width: 30px;
 }
 
 .chatItem__status {
+	width: 10px;
+	height: 10px;
+	padding-top: 10px;
+}
 
+.chatItem__text {
 }
 
 /***********************************************************************
@@ -144,8 +152,13 @@ These apply to the current user block (top right corner)
 The titles in the side bars (navigation and chat)
 ************************************************************************/
 .sideBarTitles {
-	
+	padding-top: 10px;
+	padding-bottom: 10px;
 	color: #6f6b6b;
+}
+
+.sideBarTitles.sideBarTitles--chat {
+	padding-left: 15px;
 }
 
 .sideBarImages {
@@ -165,7 +178,7 @@ The titles in the side bars (navigation and chat)
 	display: flex;
 	height: 80px;
 	font-size: 10px;
-	background: #e75b5b;
+	background: #bc5a58;
 	justify-content: center;
 	align-items: center;
 	text-decoration: underline;
@@ -211,4 +224,12 @@ The titles in the side bars (navigation and chat)
 
 .topNav__divider {
 	font-size: 12px;
+}
+
+.refreshIcons {
+
+}
+
+.refreshIcons__images {
+	
 }
