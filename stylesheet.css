@@ -18,9 +18,8 @@ The navigation menu holds the search option, main links to other pages,
 	display: flex;
 	flex-wrap: nowrap;
 	flex-direction: column;
-	border: 2px solid yellow;
 	width: 15%;
-	background: #1a1010;
+	background: #000000;
 	color: #f2eeee;
 
 
@@ -35,29 +34,28 @@ The navigation menu holds the search option, main links to other pages,
 This is the center section of the page containing the top title bar
 and the movies available for selection
 ************************************************************************/
+.mainContainer {
+	width: 70%;
+}
+
 .main {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	width: 70%;
 }
 
-.topBar {
-	display: flex;
-	height: 20px;
-
-}
 
 .movies {
 	width: 140px;
 	height: 230px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 15px;
 }
 
 .movies__images {
 	width: 140px;
 	height: 200px;
+	border-radius: 10px;
+	padding-bottom: 8px
 }
 
 .movies__title {
@@ -80,21 +78,66 @@ and the movies available for selection
 This is the chat section of the page where friends can be viewed and 
 chatted with
 ************************************************************************/
-.chat {
-	border: 2px solid red;
+.rightContainer {
 	width: 15%;
 }
 
-.chat__movieTitle {
-	color: gray;
+.chat {
+	background: #e9edee;
 }
 
-.chat__online {
-	border: 1px dashed purple;
+.chatItem {
+	display: flex;
+	flex-direction: column;
 }
 
-.chat__offline {
-	border: 1px dashed aqua;
+.chatItem__name {
+	font-size: 15px;
+}
+
+.chatItem__title {
+	font-size: 15px;
+	color: grey;
+}
+
+.chatItem__image {
+	height: 20px;
+	width: 20px;
+
+}
+
+.chatItem__status {
+
+}
+
+/***********************************************************************
+These apply to the current user block (top right corner)
+************************************************************************/
+
+.currentUser {
+	display: flex;
+	height: 80px;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	background: #88bfc6;
+}
+
+.currentUser__image {
+	width: 15px;
+	height: 15px;
+	padding-right: 10px;
+}
+
+.currentUser__text {
+	font-size: 15px;
+	color: #6f6b6b;
+}
+
+.currentUser__status {
+	width: 10px;
+	height: 10px;
+	padding-left: 10px;
 }
 
 /***********************************************************************
@@ -120,10 +163,52 @@ The titles in the side bars (navigation and chat)
 
 .search {
 	display: flex;
-	height: 100px;
+	height: 80px;
 	font-size: 10px;
 	background: #e75b5b;
 	justify-content: center;
 	align-items: center;
 	text-decoration: underline;
+	color: #f2eeee;
+}
+
+.search.search--bottom {
+	background: #c6cdd8;
+}
+
+.header {
+	display: flex;
+	height: 80px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.pageTitle {
+	
+}
+
+.pageTitle__text {
+	padding-left: 15px;
+	font-size: 30px;
+}
+
+.topNav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.topNav__text {
+	font-size: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.topNav__text.topNav__text--selected {
+	color: #60bfbf;
+}
+
+.topNav__divider {
+	font-size: 12px;
 }

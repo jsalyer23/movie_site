@@ -74,9 +74,27 @@
 
 
 
-		<div class="main">
+		<div class="mainContainer">
 
+			<div class="header">
+
+				<div class="pageTitle">
+					<p class="pageTitle__text">Discover</p>
+				</div>
+
+				<div class="topNav">
+					<p class="topNav__text">Release Date</p>
+					<p class="topNav__divider">|</p>
+					<p class="topNav__text topNav__text--selected">Popularity</p>
+				</div>
+
+				<div class="refreshIcons">
+					<img class="refreshIcons__image" src=""/>
+					<img class="refreshIcons__image" src=""/>
+				</div>
+			</div>
 			
+			<div class="main">
 
 				<div class="movies">
 					<img class="movies__images" src="the-great-gatsby.jpg"></img>
@@ -198,33 +216,35 @@
 					<h6 class="movies__genre">Genre</h6>
 					<h6 class="movies__runTime">Run Time</h6>
 				</div>
-			
+			</div>
 		</div>
 
-		<div class="chat">
-			<div>
-				<ul>
-					<li class="sideBarItem"><!--Current User--></li>
-				</ul>
+		<div class="rightContainer">
+
+			<div class="currentUser">
+				<img class="currentUser__image" src="current_user.png"/>
+				<h4 class="currentUser__text">Jack Dorsey</h4>
+				<img class="currentUser__status" src="current_user_icon.png"/>
 			</div>
 
-			<div>
-				<div class="chat__online">
+			<div class="chat">
 
-					<div class="sideBarTitles">Online</div>
+				<div class="sideBarTitles">Online</div>
 
-					<img src=""></img>
+					<div class="chatItem">
+						<img class="chatItem__image" src="victor_erixon.png"></img>
 
-					<div class="chatItem__name">	Victor Erixon
+						<div class="chatItem__name">	Victor Erixon
+						</div>
+						<div class="chatItem__title">
+							The Great Gatsby
+						</div>
+
+						<img class="chatItem__status" src=""></img>
 					</div>
-					<div class="chatItem__title">
-						The Great Gatsby
-					</div>
 
-					<img src=""></img>
-
-
-					<img src=""></img>
+				<div class="chatItem">
+					<img class="chatItem__image" src="gustav_butlex.png"></img>
 
 					<div class="chatItem__name">	Gustav Butlex
 					</div>
@@ -232,21 +252,24 @@
 						Wolverine
 					</div>
 
-					<img src=""></img>
+					<img class="chatItem__status" src=""></img>
+				</div>
 
-										
-					<img src=""></img>
+					
+					<div class="chatItem">				
+						<img class="chatItem__image" src="malte_jansson.png"></img>
 
-					<div class="chatItem__name">	Malte Jansson
+						<div class="chatItem__name">	Malte Jansson
+						</div>
+						<div class="chatItem__title">
+							Smurfs
+						</div>
+
+						<img class="chatItem__status" src=""></img>
 					</div>
-					<div class="chatItem__title">
-						Smurfs
-					</div>
 
-					<img src=""></img>
-
-
-					<img src=""></img>
+				<div class="chatItem">
+					<img class="chatItem__image" src="august_berglund.png"></img>
 
 					<div class="chatItem__name">	August Berglund
 					</div>
@@ -254,25 +277,26 @@
 						Californication
 					</div>
 
-					<img src=""></img>
-
-
-					<img src=""></img>
-
-					<div class="chatItem__name">	Alicia Agneson
-					</div>
-					<div class="chatItem__title">
-						Swan Lake
-					</div>
-
-					<img src=""></img>
-
+					<img class="chatItem__status" src=""></img>
 				</div>
 
-				<div class="chat__offline">
-					<div class="sideBarTitles">Offline</div>
+					<div class="chatItem">
+						<img class="chatItem__image" src="alicia_agneson.png"></img>
 
-					<img src=""></img>
+						<div class="chatItem__name">	Alicia Agneson
+						</div>
+						<div class="chatItem__title">
+							Swan Lake
+						</div>
+
+						<img class="chatItem__status" src=""></img>
+					</div>
+
+
+				<div class="sideBarTitles">Offline</div>
+
+				<div class="chatItem">
+					<img class="chatItem__image" src=""></img>
 
 					<div class="chatItem__name">	
 					</div>
@@ -280,68 +304,72 @@
 						
 					</div>
 
-					<img src=""></img>
-
-
-					<img src=""></img>
-
-					<div class="chatItem__name">	Rogie King
-					</div>
-					<div class="chatItem__title">
-						2 Guns
-					</div>
-
-					<img src=""></img>
-
-
-					<img src=""></img>
-
-					<div class="chatItem__name">	Rogie King
-					</div>
-					<div class="chatItem__title">
-						2 Guns
-					</div>
-
-					<img src=""></img>
-
-
-					<img src=""></img>
-
-					<div class="chatItem__name">	Rogie King
-					</div>
-					<div class="chatItem__title">
-						2 Guns
-					</div>
-
-					<img src=""></img>
-
-
-					<img src=""></img>
-
-					<div class="chatItem__name">	Rogie King
-					</div>
-					<div class="chatItem__title">
-						2 Guns
-					</div>
-
-					<img src=""></img>
-	
-
-					<img src=""></img>
-
-					<div class="chatItem__name">	Rogie King
-					</div>
-					<div class="chatItem__title">
-						2 Guns
-					</div>
-
-					<img src=""></img>
-
+					<img class="chatItem__status" src=""></img>
 				</div>
+
+					<div class="chatItem">
+						<img class="chatItem__image" src=""></img>
+
+						<div class="chatItem__name">	Rogie King
+						</div>
+						<div class="chatItem__title">
+							2 Guns
+						</div>
+
+						<img class="chatItem__status" src=""></img>
+					</div>
+
+				<div class="chatItem">
+					<img class="chatItem__image" src=""></img>
+
+					<div class="chatItem__name">	Rogie King
+					</div>
+					<div class="chatItem__title">
+						2 Guns
+					</div>
+
+					<img class="chatItem__status" src=""></img>
+				</div>
+
+					<div class="chatItem">
+						<img class="chatItem__image" src=""></img>
+
+						<div class="chatItem__name">	Rogie King
+						</div>
+						<div class="chatItem__title">
+							2 Guns
+						</div>
+
+						<img class="chatItem__status" src=""></img>
+					</div>
+
+				<div class="chatItem">
+					<img class="chatItem__image" src=""></img>
+
+					<div class="chatItem__name">	Rogie King
+					</div>
+					<div class="chatItem__title">
+						2 Guns
+					</div>
+
+					<img class="chatItem__status" src=""></img>
+				</div>
+
+					<div class="chatItem">
+						<img class="chatItem__image" src=""></img>
+
+						<div class="chatItem__name">	Rogie King
+						</div>
+						<div class="chatItem__title">
+							2 Guns
+						</div>
+
+						<img class="chatItem__status" src=""></img>
+					</div>
 			</div>
 
-			<div class="search">
-				<!--Chat With Search-->
+			<div class="search search--bottom">
+				<h3>chat with..._____<img class="sideBarImages" src="search.png"/></h3>
 			</div>
 		</div>
 	</body>
